@@ -5,6 +5,7 @@ import Professions from "@components/Profesions";
 import Explore from "@components/Explore";
 import Feather from "@components/Feathur";
 import Footer from "@components/Footer";
+import Bar from "@components/bar";
 
 const Home = () => {
     return(
@@ -12,16 +13,10 @@ const Home = () => {
             <section className="main-page">
                 <div className="main-container">
                     <section className="main-heading">
-                        <h1>Hurry to build your career here</h1>
-                        <h3>Growing A Bussiness Means  The Right People In Your Team</h3>
-                        <Image
-                            src="/assets/bar.png"
-                            width={800}
-                            height={60}
-                            className="main-logo"
-                            style={{borderRadius:'15px'}}
-                            alt="Picture of the author"
-                        />
+                        <h1>Yenilikçi ağıllar möcüzələr yaradır</h1>
+                        <h3>Gələcəyi innovasiyalar vasitəsilə formalaşdırmaq cəsarət tələb edir</h3>
+
+                        <Bar/>
                         <Image
                             src="/assets/logos.png"
                             width={1250}

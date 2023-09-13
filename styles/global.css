@@ -102,13 +102,6 @@ body{
     top: 35%;
 }
 
-.main-logo{
-    position: absolute;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    top: 130%;
-}
-
 .main-logo2{
     position: absolute;
     transform: translate(-50%, -50%);
@@ -212,12 +205,106 @@ body{
 .footer{
     background-color: #000000;
     color: white;
-    height: 420px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
 }
 
 .footer-container{
     display: flex;
+    width: 90%; 
+}
+
+.ft{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+    gap: 20px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.search{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 130%;
+    width: 800px;
+    height: 65px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    display: flex;
     justify-content: center;
     align-items: center;
-    
+}
+
+.search-con{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px 0px 10px;
+}
+
+.Con{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 25%;
+    height: 50px;
+}
+
+.Con span{
+    color: black;
+    font-size: 18px;
+}
+
+.bbb{
+    border-radius: 10px;
+    background-color: rgb(75, 75, 242);
+    font-size: 17px;
+    border: none;
+    width: 120px;
+    color: white;
+    padding: 10px 15px 10px 15px;
+}
+
+.search2{
+    width: 1160px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: rgb(45, 45, 45);
+    top: -30px;
+    margin-bottom: 20px;
+}
+
+.search-con2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Con2{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    padding: 10px;
+    height: 33px;
+    gap: 10px;
+}
+
+.Con2 span{
+    font-size: 21px;
+    border: none;
+    border-radius: 20px;
 }

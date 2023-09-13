@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Bar2 from './Bar2'
 
 export default function Professions(){
     return(
@@ -7,12 +8,7 @@ export default function Professions(){
 
                 <div className='prof'>
                     <div>
-                        <Image
-                            src='/assets/mininav.png'
-                            width={1160}
-                            height={60}
-                            style={{borderRadius:'25px',position:'relative',top:'-30px'}}
-                        />
+                        <Bar2/>
                     </div>
                     <div className='compts'>
                         <Image
@@ -65,8 +61,8 @@ export default function Professions(){
                         />
                     </div>
                     <div className='compts2'>
-                        <h4>How it works</h4>
-                        <h1>Easy step to get your dream job here</h1>
+                        <h4>Nece olur</h4>
+                        <h1>Xəyal etdiyiniz işi əldə etmək üçün asan addım</h1>
                         <div className='compts-con'>
                             <Image
                                 src='/assets/com.png'
