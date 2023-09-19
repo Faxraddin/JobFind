@@ -27,13 +27,6 @@ export default function Footer() {
                     <h2>Elaqe</h2>
                     <span>+546845676</span>
                 </div>
-                <div className='ft'>
-                    <h2>Product</h2>
-                    <span>Novation</span>
-                    <span>xrdctfvbhjn</span>
-                    <span>Novation</span>
-                    <span>xrdctfvbhjn</span>
-                </div>
 
             </div>
         </section>

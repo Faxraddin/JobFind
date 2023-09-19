@@ -64,24 +64,36 @@ export default function Professions(){
                         <h4>Nece olur</h4>
                         <h1>Xəyal etdiyiniz işi əldə etmək üçün asan addım</h1>
                         <div className='compts-con'>
-                            <Image
-                                src='/assets/com.png'
-                                width={300}
-                                height={200}
-                                style={{borderRadius:'15px',position:'relative'}}
-                            />
-                            <Image
-                                src='/assets/com.png'
-                                width={300}
-                                height={200}
-                                style={{borderRadius:'15px',position:'relative'}}
-                            />
-                            <Image
-                                src='/assets/com.png'
-                                width={300}
-                                height={200}
-                                style={{borderRadius:'15px',position:'relative'}}
-                            />
+                            <div className='r'>
+                                <Image
+                                src={'/assets/r1.png'}
+                                width={50}
+                                height={50}
+                                style={{borderRadius:'20px'}}
+                                />
+                                <h3>Əməkdaşlıq</h3>
+                                <p>Güclü startaplar yaxşı komanda ilə qurulur</p>
+                            </div>
+                            <div className='r'>
+                                <Image
+                                src={'/assets/r2.png'}
+                                width={50}
+                                height={50}
+                                style={{borderRadius:'20px'}}
+                                />
+                                <h3>Peşəkarlıq</h3>
+                                <p>Mentor olan startaplar 70% daha uğurlu olur</p>
+                            </div>
+                            <div className='r'>
+                                <Image
+                                src={'/assets/r3.png'}
+                                width={50}
+                                height={50}
+                                style={{borderRadius:'20px'}}
+                                />
+                                <h3>İnkişaf</h3>
+                                <p>İnkişafın təməli innovagivlikdir.</p>
+                            </div>
                         </div>
                     </div>
                 </div>

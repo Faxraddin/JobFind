@@ -11,10 +11,10 @@ const Nav = () => {
                     <h1>NOVATION</h1>
                 </div>
                 <div className="navbar-sec2">
-                    <Link className="link" href={'/'}>Esas</Link>
+                    <Link className="link" href={'/'}>Əsas</Link>
                     <Link className="link" href={'/'}>Kategorya</Link>
                     <Link className="link" href={'/'}>Blog</Link>
-                    <Link className="link" href={'/'}>Elaqe</Link>
+                    <Link className="link" href={'/'}>Əlaqə</Link>
                 </div>
                 <div className="navbar-sec3">
                     <Link className="sign-in" href={'/'}>Sign In</Link>

@@ -180,13 +180,30 @@ body{
     background-color: #000000;
     color: white;
     height: 540px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
 }
 
 .explore-container{
+    width: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
-    
+    justify-content: left;
+    flex-direction: column;
+    text-align: left;
+}
+
+.eba{
+    padding: 10px;
+    text-align: left;
+    border-radius: 10px;
+    border: thin grey solid;
+}
+
+.explore-container h1{
+    font-size: 40px;
 }
 
 .feather{
@@ -199,7 +216,35 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    padding-top: 100px;
+}
+
+.fb{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    border-radius: 20px;
+    background-color: rgb(100, 100, 226);
+    width: 900px;
+    align-items: center;
+    height: 150px;
+    padding: 50px;
+}
+
+.fb h1{
+    font-size: 38px;
+    width: 400px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.fb button{
+    background-color: black;
+    border: none;
+    border-radius: 16px;
+    width: 160px;
+    font-size: 18px;
+    color: white;
+    height: 60px;
 }
 
 .footer{
@@ -228,6 +273,17 @@ body{
     text-align: left;
     font-size: 14px;
 }
+
+.r{
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    flex-direction: column;
+    background-color: rgb(44, 44, 44);
+    border-radius: 15px;
+    padding: 15px;
+}
+
 
 .search{
     position: absolute;
@@ -304,7 +360,7 @@ body{
 }
 
 .Con2 span{
-    font-size: 21px;
+    font-size: 16px;
     border: none;
     border-radius: 20px;
 }

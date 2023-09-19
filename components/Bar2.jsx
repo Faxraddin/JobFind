@@ -11,27 +11,27 @@ const Bar2 = () => {
             </div>
             <div className="Con2" style={{borderRight:'solid thin lightgrey'}}>
                 <Image src={'/assets/m2.png'} width={20} height={20}/>
-                <span>ABB</span>
+                <span>Mühəndislik</span>
             </div>
             <div className="Con2" style={{borderRight:'solid thin lightgrey'}}>
                 <Image src={'/assets/m3.png'} width={20} height={20}/>
-                <span>Center</span>
+                <span>Marketing</span>
             </div>
             <div className="Con2" style={{borderRight:'solid thin lightgrey'}}>
                 <Image src={'/assets/m4.png'} width={20} height={20}/>
-                <span>Unec</span>
+                <span>Dizayn</span>
             </div>
             <div className="Con2" style={{borderRight:'solid thin lightgrey'}}>
                 <Image src={'/assets/m5.png'} width={20} height={20}/>
-                <span>SDS</span>
+                <span>Inkişaf</span>
             </div>
             <div className="Con2" style={{borderRight:'solid thin lightgrey'}}>
                 <Image src={'/assets/m6.png'} width={20} height={20}/>
-                <span>Start-Up</span>
+                <span>Insan resursları</span>
             </div>
             <div className="Con2" >
                 <Image src={'/assets/m7.png'} width={20} height={20}/>
-                <span>Innovasiya</span>
+                <span>Biznesin idarə edilməsi</span>
             </div>
 
         </div>
