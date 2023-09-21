@@ -11,20 +11,20 @@ export default function Footer() {
                     <Image src={'/assets/lgss.png'} width={90} height={40}/>
                 </div>
                 <div className='ft'>
-                    <h2>Haqqimizda</h2>
+                    <h2>Haqqımızda</h2>
                     <span>Startaplar</span>
                     <span>Mentorlar</span>
                     <span>Investorlar</span>
                 </div>
                 <div className='ft'>
-                    <h2>Sirket</h2>
+                    <h2>Şirkət</h2>
                     <span>Tereflesper</span>
                     <span>Fealiyet</span>
                     <span>Blog</span>
 
                 </div>
                 <div className='ft'>
-                    <h2>Elaqe</h2>
+                    <h2>Əlaqə</h2>
                     <span>+546845676</span>
                 </div>
 
